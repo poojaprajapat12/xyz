@@ -1,0 +1,44 @@
+/* Style for form container */
+*{
+    margin-right: 10px;
+}
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for input fields */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for input placeholders */
+  .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  /* Style for input focus */
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Style for submit button */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for BMI result */
+  .bmi-result {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
